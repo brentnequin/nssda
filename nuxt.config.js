@@ -39,6 +39,15 @@ export default {
     '@nuxtjs/axios',
   ],
 
+  tailwindcss: {
+    cssPath: './assets/css/tailwind.css',
+    configPath: './tailwind.config.js',
+    exposeConfig: false,
+    config: {},
+    injectPosition: 0,
+    viewer: true,
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
